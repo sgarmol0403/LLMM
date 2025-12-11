@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Runners Home™</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* Reset y tipografía básica */
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: #222;
+      background: #f7f7f9;
+      line-height: 1.5;
+    }
+
+    /* Cabecera y navegación */
+    header {
+      background: #111827;
+      color: #fff;
+      border-bottom: 4px solid #34d399; /* acento */
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+    nav {
+      display: flex;
+      gap: 16px;
+      padding: 12px 0;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 6px;
+    }
+    nav a:hover, nav a[aria-current="page"] {
+      background: #374151;
+      color: #fff;
+    }
+
+    /* Contenido principal */
+    main {
+      background: #fff;
+      margin: 24px 0;
+      padding: 24px;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    }
+    .hello {
+      color: #6b7280;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 0 0 12px;
+    }
+    p.lead {
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    li {
+      margin: 6px 0;
+    }
+
+    /* Pie de página */
+    footer {
+      color: #6b7280;
+      font-size: 14px;
+      padding: 18px 0 28px;
+      text-align: center;
+    }
+    footer a { color: #2563eb; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav aria-label="Principal">
+        <a href="#" aria-current="page">Races</a>
+        <a href="#">Resources</a>
+        <a href="#">Calculator</a>
+        <a href="#">Running Log</a>
+        <a href="#">My Account</a>
+        <a href="#">Log out</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <main>
+      <div class="hello">Hello, Stranger!</div>
+      <h1>Welcome to Runners Home™</h1>
+      <p class="lead">Runners Home™ is dedicated to providing you with:</p>
+      <ul>
+        <li>the most up-to-date information on running races.</li>
+        <li>the best resources for runners.</li>
+      </ul>
+    </main>
+  </div>
+
+  <footer>
+    © 2007 Runners Home. All rights reserved.
+    For questions, send email to <a href="mailto:info@runnershome.com">info@runnershome.com</a>.
+  </footer>
+
+</body>
+</html>
