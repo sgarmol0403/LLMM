@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>    
+    <script>
+        function cambiaCoche(nombre) {
+            document.getElementById('miImagen').src = nombre;   
+        }
+    </script>
+</head>
+
+<p>Select a new car from the list.</p>
+
+<select id="mySelect" onchange="myFunction(cambiaCoche)">
+  <option value="coche1.jpg" onclick="cambiaCoche('coche1.jpg')">coche1</option>
+  <option value="coche2.jpg" onclick="cambiaCoche('coche2.jpg')">coche2</option>
+  <option value="coche3.jpg" onclick="cambiaCoche('coche3.jpg')">coche3</option>
+  <option value="coche4.jpg" onclick="cambiaCoche('coche4.jpg')">coche4</option>
+  <option value="coche5.jpg" onclick="cambiaCoche('coche5.jpg')">coche5</option>
+  <option value="coche6.jpg" onclick="cambiaCoche('coche6.jpg')">coche6</option>
+  <option value="spiderman1.gif" onclick="cambiaCoche('spiderman1.gif')">spiderman1</option>
+  <option value="spiderman2.jpg" onclick="cambiaCoche('spiderman2.jpg')">spiderman2</option>
+  <option value="spiderman3.jpg" onclick="cambiaCoche('spiderman3.jpg')">spiderman3</option>
+  <option value="Spiderman4.jpg" onclick="cambiaCoche('Spiderman4.jpg')">spiderman4</option>
+  <option value="spiderman5.jpg" onclick="cambiaCoche('spiderman5.jpg')">spiderman5</option>
+  
+</select>
+
+<p>When you select a new car, a function is triggered which outputs the value of the selected car.</p>
+
+<p id="demo"></p>
+
+<img id="miImagen" style="height:300px">
+
+<script>
+function myFunction() {
+  var x = document.getElementById("mySelect").value;
+ cambiaCoche(x);
+}
+</script>
+
+</body>
+</html>
