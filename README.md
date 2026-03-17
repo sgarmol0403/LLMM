@@ -7,4 +7,4 @@ https://sgarmol0403.github.io/LLMM/PaginaBootstrap.html
 | JavaScript       | [js04](Trimestre2/Tarea/js/js04.html)  | Variables|
 | JavaScript       | [js07](Trimestre2/Tarea/js/js07.html)  | Deslizar imágenes|
 | JavaScript       | [js09](Trimestre2/Tarea/js/js09.html)  | Celsius Farenheit|
-| xml       | [catalog.xml](Trimestre2/Tarea/xml/cd_catalog.xml)  | catalogo|
+| xml       | [catalog](Trimestre2/Tarea/xml/cd_catalog.xml)  | catalogo|
