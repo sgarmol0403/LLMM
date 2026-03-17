@@ -13,3 +13,4 @@ https://sgarmol0403.github.io/LLMM/PaginaBootstrap.html
 | xml       | [XML1C](Trimestre2/Tarea/xml/XML1C.xml) | Preguntas Simples C |
 | xml       | [Ex2](Trimestre2/Tarea/xml/Ex2.xml) | Estructura arbol xml |
 | xml       | [ex3--err](Trimestre2/Tarea/xml/ex3--err.xml) | Estructura xml |
+| xml       | [ex4](Trimestre2/Tarea/xml/ex4.xml) | Mensaje email |
