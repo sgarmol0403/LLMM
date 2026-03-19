@@ -14,4 +14,4 @@ https://sgarmol0403.github.io/LLMM/PaginaBootstrap.html
 | xml       | [Ex2](Trimestre2/Tarea/xml/Ex2.xml) | Estructura arbol xml |
 | xml       | [ex3--err](Trimestre2/Tarea/xml/ex3--err.xml) | Estructura xml |
 | xml       | [ex4](Trimestre2/Tarea/xml/ex4.xml) | Mensaje email |
-| DOM       | [DOM3](Trimestre2/Tarea/DOM3.html) | borrar elementos |
+| DOM       | [DOM3](Trimestre2/Tarea/DOM/DOM3.html) | borrar elementos |
