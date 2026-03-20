@@ -1,0 +1,15 @@
+       <Biblioteca>
+       
+       	<libros>
+       		<titulo> Titulo 1 </titulo>
+       		<autor> autor1 </autor>
+       	</libros>
+       	<libros>
+       		<titulo> Titulo 2 </titulo>
+       		<autor> autor2 </autor>
+       	</libros>
+       	<libros>
+       		<titulo> Titulo 3 </titulo>
+       		<autor> autor3 </autor>
+       	</libros>
+	</Biblioteca>
