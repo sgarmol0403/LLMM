@@ -10,7 +10,22 @@ https://sgarmol0403.github.io/LLMM/tema1/PaginaWeb.html
 | HTML       | [LMSGI_01_Actividades_2](tema1/LMSGI_01_Actividades_2.txt) |  Documento xml |
 | HTML       | [LMSGI_01_Actividades_3](tema1/LMSGI_01_Actividades_3.txt) |  SVG |
 | HTML       | [LMSGI_01_Actividades_4](tema1/LMSGI_01_Actividades_4.txt) |  Markdown |
-| HTML       | [LMSGI_02_Actividades_1](tema1/LMSGI_02_Actividades_1.html) |  Markdown |
+| HTML       | [LMSGI_02_Actividades_1](tema1/LMSGI_02_Actividades_1.html) |  Web Simple |
+| HTML       | [LMSGI_02_Actividades_2](tema1/LMSGI_02_Actividades_2.html) |  Niveles Cabecera |
+| HTML       | [LMSGI_02_Actividades_3](tema1/LMSGI_02_Actividades_3.html) |  Etiquetas y formatos |
+| HTML       | [LMSGI_02_Actividades_4](tema1/LMSGI_02_Actividades_4.html) |  Página con su contenido |
+| HTML       | [LMSGI_02_Actividades_5](tema1/LMSGI_02_Actividades_5.html) |  Página con varios párrafos |
+| HTML       | [LMSGI_02_Actividades_6](tema1/LMSGI_02_Actividades_6.html) |  Página anterior modificada |
+| HTML       | [LMSGI_02_Actividades_7](tema1/LMSGI_02_Actividades_7.html) |  Cambiar atributos de color |
+| HTML       | [LMSGI_02_Actividades_9](tema1/LMSGI_02_Actividades_9/LMSGI_02_Actividades_9.html) |  Página Simple |
+| HTML       | [LMSGI_02_Actividades_10](tema1/LMSGI_02_Actividades_10.html) |  Listas anidadas |
+| HTML       | [LMSGI_02_Actividades_11](tema1/LMSGI_02_Actividades_11.html) |  Listas |
+| HTML       | [LMSGI_02_Actividades_12](tema1/LMSGI_02_Actividades_12.html) |  Estilos html |
+| HTML       | [LMSGI_02_Actividades_13](tema1/LMSGI_02_Actividades_13.html) |  Bordes html |
+| HTML       | [LMSGI_02_Actividades_14](tema1/LMSGI_02_Actividades_14.html) |  margin y padding |
+| HTML       | [LMSGI_02_Actividades_15](tema1/LMSGI_02_Actividades_15.html) |  Tablas |
+| HTML       | [LMSGI_02_Actividades_16](tema1/LMSGI_02_Actividades_16.html) |  Tablas 2|
+| HTML       | [LMSGI_02_Actividades_17](tema1/LMSGI_02_Actividades_17/LMSGI_02_Actividades_17.html) |  Tablas 3|
 
 **TRIMESTRE 2**
 
