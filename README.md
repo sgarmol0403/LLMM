@@ -7,7 +7,7 @@ https://sgarmol0403.github.io/LLMM/tema1/PaginaWeb.html
 | Tema | Ejercicio | Desc |
 |:-|:-:|-:|
 | HTML       | [LMSGI_01_Actividades_1](tema1/LMSGI_01_Actividades_1.txt) |  Encabezado y párrafo |
-| HTML       | [LMSGI_01_Actividades_2](tema1/LMSGI_01_Actividades_2.txt)) |  Documento xml |
+| HTML       | [LMSGI_01_Actividades_2](tema1/LMSGI_01_Actividades_2.txt) |  Documento xml |
 | HTML       | [LMSGI_01_Actividades_3](tema1/LMSGI_01_Actividades_3.txt) |  SVG |
 | HTML       | [LMSGI_01_Actividades_4](tema1/LMSGI_01_Actividades_4.txt) |  Markdown |
 | HTML       | [LMSGI_02_Actividades_1](tema1/LMSGI_02_Actividades_1.html) |  Markdown |
