@@ -1,4 +1,13 @@
+
+
+TRIMESTRE 2
+
+Trabajo final (Bootstrap)
 https://sgarmol0403.github.io/LLMM/PaginaBootstrap.html
+
+
+Ejercicios
+
 | Tema | Ejercicio | Desc |
 |:-|:-:|-:|
 | JavaScript       | [MyJS](Trimestre2/Tarea/js/MyJS.js) |  Añadir boton |
