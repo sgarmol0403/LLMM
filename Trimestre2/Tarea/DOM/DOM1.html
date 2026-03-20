@@ -1,0 +1,32 @@
+
+    1. Título del primer libro
+       
+document.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+    2. Todos los títulos
+       
+
+       tit = document.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+       for (i = 0; i < tit; i++)
+            console.log(tit[i].childNodes[0].nodeValue);
+
+    3. Número de atributos del cuarto libro
+       
+document.getElementsByTagName("book")[3].attributes.length;
+
+    4. Valor de los atributos del cuarto libro
+       
+cl = document.getElementsByTagName("book")[3].attributes.length;
+       for (i = 0; i < cl; i++)
+            console.log(cl[i].childNodes[0].nodeValue);
+
+    5. Número de autores del tercer libro
+       
+document.getElementsByTagName("book")[2].getElementsByTagName('author').length;
+
+    6. Autores del tercer libro
+       
+L=document.getElementsByTagName("book"[2].getElementsByTagName('author').lengt;
+       Aut = document.getElementsByTagName("book")[2].getElementsByTagName('author');
+       for(i = 0; i < L; i++)
+       	console.log(Aut[i].childNodes[0].nodeValue);
