@@ -40,6 +40,7 @@ Ejercicios
 | JavaScript       | [js02](Trimestre2/Tarea/js/js02.js) | Mostrar mensaje |
 | JavaScript       | [js03](Trimestre2/Tarea/js/js03.html) | Seleccionar imagenes |
 | JavaScript       | [js04](Trimestre2/Tarea/js/js04.html) | Variables |
+| JavaScript       | [js05](Trimestre2/Tarea/js/js05.html) | Ejercicios básicos |
 | JavaScript       | [js07](Trimestre2/Tarea/js/js07.html) | Deslizar imágenes |
 | JavaScript       | [js09](Trimestre2/Tarea/js/js09.html) | Celsius Farenheit |
 | xml       | [cd_catalog](Trimestre2/Tarea/xml/cd_catalog.xml) | Catalogo |
