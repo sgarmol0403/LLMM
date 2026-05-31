@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+        <div class="container">
+            <a class="navbar-brand" href="PaginaBootstrap.html"><h1>Test del tercer trimestre</h1></a>
+            <div class="collapse navbar-collapse" id="navbarNav"></div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <label>Idioma:
+            <select id="idioma" class="form-select d-inline-block w-auto">
+                <option value="es">Español</option>
+                <option value="en">English</option>
+            </select>
+        </label>
+
+        <div id="timer" class="my-2 fw-bold">Tiempo: 0 s</div>
+
+        <button class="btn btn-primary my-2" onclick="cargarTest()">Comenzar</button>
+        <div id="contenedor"></div>
+
+        <button id="btnCorregir" class="btn btn-success my-2" onclick="corregir()" style="display: none;">Corregir</button>
+        <div id="resultado" class="mt-3"></div>
+    </div>
+
+<script>
+
+let xmlDoc;
+let tiempo = 0;
+let intervalo;
+
+function cargarTest() {                                             // esto se ejecuta cuando se hace click en el boton de arriba de comenzar
+    const idioma = document.getElementById("idioma").value;         // aqui recoge la opcion seleccionada en el idioma
+    const archivo = idioma === "es" ? "preguntas_es.xml" : "preguntas_en.xml"; //con esta condicion, si el valor es "es" entonces abre el documento xml en español, si no, el ingles
+
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", archivo, true);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            xmlDoc = xhr.responseXML;
+            mostrarPreguntas();                     //Luego ejecuta esta funcion que muestra las preguntas e inicia el temporizador
+            iniciarTimer();
+        }
+    };
+    xhr.send();
+}
+
+function mostrarPreguntas() {
+    const cont = document.getElementById("contenedor");
+    cont.innerHTML = "";
+
+    const preguntas = xmlDoc.getElementsByTagName("question");
+
+    for (let i = 0; i < preguntas.length; i++) {// con este bucle for recoge las preguntas una por una
+        const q = preguntas[i];
+        const wording = q.getElementsByTagName("wording")[0].textContent;
+        const choices = q.getElementsByTagName("choice");
+
+        const div = document.createElement("div");
+        div.className = "question my-3 p-3 border rounded bg-light";
+
+        const p = document.createElement("p");
+        p.className = "fw-bold";
+        p.textContent = (i + 1) + ". " + wording;
+        div.appendChild(p);
+
+        for (let j = 0; j < choices.length; j++) {
+            const c = choices[j].textContent;
+
+            const label = document.createElement("label");
+            label.className = "d-block my-1";
+            
+            const input = document.createElement("input");
+            input.type = "radio";
+            input.className = "form-check-input me-2";
+            input.name = "p" + i;
+            input.value = j;
+
+            label.appendChild(input);
+            label.appendChild(document.createTextNode(c));
+            div.appendChild(label);
+        }
+
+        cont.appendChild(div);
+    }
+
+    document.getElementById("btnCorregir").style.display = "block";
+}
+
+function iniciarTimer() {
+    tiempo = 0;     //el tiempo por defecto es 0 al iniciar el temporizador
+    clearInterval(intervalo);
+    intervalo = setInterval(() => {
+        tiempo++;
+        document.getElementById("timer").textContent = "Tiempo: " + tiempo + " s";//aqui hace que se muestre el tiempo que es una variable y el texto, donde la variable del tiempo cambia
+    }, 1000);
+}
+
+function corregir() {
+    clearInterval(intervalo);
+
+    const preguntas = xmlDoc.getElementsByTagName("question");
+    let aciertos = 0;
+
+    for (let i = 0; i < preguntas.length; i++) {
+        const choices = preguntas[i].getElementsByTagName("choice");
+        let correcta = -1;
+
+        for (let j = 0; j < choices.length; j++) {
+            if (choices[j].getAttribute("correct") === "yes") {
+                correcta = j;
+            }
+        }
+
+        const seleccionada = document.querySelector(`input[name="p${i}"]:checked`);
+        if (seleccionada && parseInt(seleccionada.value) === correcta) {
+            aciertos++;
+        }
+    }
+
+    document.getElementById("resultado").innerHTML =
+        `<h2>Puntuación: ${aciertos} / ${preguntas.length}</h2>
+         <p>Tiempo empleado: ${tiempo} segundos</p>`;
+}
+</script>
+
+</body>
+</html>
