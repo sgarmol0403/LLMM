@@ -65,3 +65,4 @@ Ejercicios
 |:-|:-:|-:|
 | Json       | [MyJS](3 Trim/json/js01.html) |  Crear objeto de json |
 | Json       | [MyJS](3 Trim/json/js02.html) |  Acceder a valores array |
+| JavaScript       | [MyJS](Trimestre2/Tarea/js/MyJS.js) |  Añadir boton |
