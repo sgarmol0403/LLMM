@@ -29,7 +29,7 @@ Trabajo final (Página web html)
 **TRIMESTRE 2**
 
 Trabajo final (Bootstrap)
-https://sgarmol0403.github.io/LLMM/PaginaBootstrap.html
+https://sgarmol0403.github.io/LLMM/Trimestre2/PaginaBootstrap.html
 
 
 Ejercicios
