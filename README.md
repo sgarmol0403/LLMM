@@ -53,3 +53,15 @@ Ejercicios
 | DOM       | [DOM3](Trimestre2/Tarea/DOM/DOM3.html) | borrar elementos |
 | DOM       | [DOM3](Trimestre2/Tarea/DOM/EjerciciosDOM.txt) | Ejercicios DOM |
 | DOM       | [DOM1](Trimestre2/Tarea/DOM/EjerciciosDOM1.txt) | Ejercicios DOM 2 |
+
+** TRIMESTRE 3**
+
+Trabajo final (xml)
+
+
+Ejercicios
+
+| Tema | Ejercicio | Desc |
+|:-|:-:|-:|
+| Json       | [MyJS](3 Trim/json/js01.html) |  Crear objeto de json |
+| Json       | [MyJS](3 Trim/json/js02.html) |  Acceder a valores array |
